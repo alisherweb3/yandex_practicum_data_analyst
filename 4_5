@@ -1,7 +1,11 @@
-MINUTES_IN_HOURS = 
+MINUTES_IN_HOUR = 60
+
+# создайте константу MINUTES_IN_HOUR
 # < напишите код здесь >
 
 def minutes_to_hours(minutes):
-    hours = minutes / 
+    hours = minutes / MINUTES_IN_HOUR
+    return hours
+    # < напишите код здесь >
 
 print('Длина фильма "Форма воды": {:.2f} ч.'.format(minutes_to_hours(123)))
