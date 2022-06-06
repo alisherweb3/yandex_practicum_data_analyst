@@ -1,0 +1,7 @@
+MINUTES_IN_HOURS = 
+# < напишите код здесь >
+
+def minutes_to_hours(minutes):
+    hours = minutes / 
+
+print('Длина фильма "Форма воды": {:.2f} ч.'.format(minutes_to_hours(123)))
